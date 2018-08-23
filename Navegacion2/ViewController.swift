@@ -10,6 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func doTapNavegarAzul(sender: AnyObject) {
+        
+        if txtTexto.text != nil && txtTexto.text != ""
+        {
+            self.performSegueWithIdentifier("goToAzul", sender: nil)
+        }
+        
+    }
+    
+    
+    @IBOutlet weak var txtTexto: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

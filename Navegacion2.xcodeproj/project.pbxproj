@@ -14,6 +14,8 @@
 		850F49D4212F3DCC00F05F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850F49D2212F3DCC00F05F28 /* LaunchScreen.storyboard */; };
 		850F49DF212F3DCC00F05F28 /* Navegacion2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850F49DE212F3DCC00F05F28 /* Navegacion2Tests.swift */; };
 		850F49EA212F3DCC00F05F28 /* Navegacion2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850F49E9212F3DCC00F05F28 /* Navegacion2UITests.swift */; };
+		850F49F8212F41E100F05F28 /* Perros controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850F49F7212F41E100F05F28 /* Perros controller.swift */; };
+		850F49FA212F466500F05F28 /* azulController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850F49F9212F466500F05F28 /* azulController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		850F49E5212F3DCC00F05F28 /* Navegacion2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Navegacion2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		850F49E9212F3DCC00F05F28 /* Navegacion2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navegacion2UITests.swift; sourceTree = "<group>"; };
 		850F49EB212F3DCC00F05F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		850F49F7212F41E100F05F28 /* Perros controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Perros controller.swift"; sourceTree = "<group>"; };
+		850F49F9212F466500F05F28 /* azulController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = azulController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				850F49C9212F3DCC00F05F28 /* AppDelegate.swift */,
 				850F49CB212F3DCC00F05F28 /* ViewController.swift */,
+				850F49F7212F41E100F05F28 /* Perros controller.swift */,
 				850F49CD212F3DCC00F05F28 /* Main.storyboard */,
 				850F49D0212F3DCC00F05F28 /* Assets.xcassets */,
 				850F49D2212F3DCC00F05F28 /* LaunchScreen.storyboard */,
 				850F49D5212F3DCC00F05F28 /* Info.plist */,
+				850F49F9212F466500F05F28 /* azulController.swift */,
 			);
 			path = Navegacion2;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850F49F8212F41E100F05F28 /* Perros controller.swift in Sources */,
+				850F49FA212F466500F05F28 /* azulController.swift in Sources */,
 				850F49CC212F3DCC00F05F28 /* ViewController.swift in Sources */,
 				850F49CA212F3DCC00F05F28 /* AppDelegate.swift in Sources */,
 			);
